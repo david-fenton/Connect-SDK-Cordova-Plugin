@@ -8,4 +8,4 @@ Meteor autogenerates a build.gradle file with its Cordova plugins on Android. Bu
 
 ## How to Use?
 
-When adding the plugin, the id has changed from cordova-plugin-connectsdk to cordova-plugin-connectsdk-meteor. We are currently pulling it into the project from the git url https://github.com/david-fenton/Connect-SDK-Cordova-Plugin.git#COMMIT_HASH.
+When adding the plugin, the id has changed from cordova-plugin-connectsdk to cordova-plugin-connectsdk-meteor. We are currently pulling it into the project via the git url option https://github.com/david-fenton/Connect-SDK-Cordova-Plugin.git#COMMIT_HASH where COMMIT_HASH is the commit we are using.
