@@ -44,11 +44,7 @@
         <framework src="AdSupport.framework" />
         <framework src="Connect-SDK-iOS/GoogleCast.framework" custom="true" type="projectReference" />
         <framework src="Connect-SDK-iOS/Bolts.framework" custom="true" type="projectReference" />
-        <framework src="Connect-SDK-iOS/AmazonFling.framework" custom="true" type="projectReference" />
         <framework src="Connect-SDK-iOS/ConnectSDK.framework" custom="true" type="projectReference" />
-
-        <hook type="after_plugin_install" src="scripts/ios-install.js" />
-        <hook type="before_plugin_uninstall" src="scripts/ios-uninstall.js" />
 
     </platform>
 
